@@ -37,6 +37,9 @@
     display: none;
 }
 
+.container_botao:checked~.lista__menu {
+    display: block;
+}
 .container_botao:checked~.container__label>.cabecalho__menu-hamburguer {
     background-image: url("../../icon/Menu-Aberto.svg");
 }
@@ -45,10 +48,7 @@
     background: var(--cor-azul-degrade);
 }
 
-.container_botao:checked~.lista__menu {
-    display: block;
 
-}
 
 .lista__menu-titulo,
 .lista__menu-item {
